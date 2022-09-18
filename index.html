@@ -4,19 +4,44 @@
     <title> khani first github page </title>
     <meta name='viewport' content='width=device-width , initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="imagehover.min.css">
     <style>
-      
     </style>
   </head>
   
   <body>
     <div class="container-fluid">
-        <div class="col-lg">
-            <h1> HELLO AGAIN!</h1>
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="p-2 welcome_box flex-column align-items-center">
+            <div class="d-flex flex-row justify-content-around">
+              <figure class="imghvr-fade w-25 mt-5"> 
+                <img src="03.jpg" class="">
+                  <figcaption class="d-flex flex-column justify-content-around align-items-center">
+                      <p style="font-size: 15pt;">UserName : welcome</p>
+                      <p style="font-size: 15pt;">Password : 1234</p>
+                  </figcaption>
+                  <a href="#"></a>
+              </figure>
+            </div>
+            <div class="d-flex flex-row justify-content-around mt-5">
+              <form class="p-2 d-flex flex-column w-25" action="#">
+                <label>UserName : </label>
+                <input type="text" name="username" class="p-2" required>
+                <label>Password : </label>
+                <input type="password" name="password" class="p-2" required>
+                <input type="submit" name="OK" value="OK" class="mt-2 align-self-end">
+              </form>  
+            </div>  
+          </div>
         </div>
-        <div class="col-sm">
-            <h2> HELLO AGAIN!</h2>
+        <div class="col-lg-4">
+          <div class="d-flex flex-column choose_box">
+            <div class="p-2 d-flex justify-content-around"><img src="works.png" class="w-50"></div>
+            <div class="p-2 d-flex justify-content-around"><img src="contact_me.png" class="w-75"></div>
+            <div class="p-2 d-flex justify-content-around"><img src="about.png" class="w-50"></div>
+          </div>
         </div>
     </div>
 
