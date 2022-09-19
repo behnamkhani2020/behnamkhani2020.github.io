@@ -15,3 +15,24 @@
 .welcome_box form input:required{
 	border-top: 3px solid black;
 }
+#works_message{
+	text-align: center;
+	font-size: 10pt;
+}
+#contact_message{
+	text-align: center;
+	font-size: 10pt;
+}
+#about_message{
+	text-align: center;
+	font-size: 10pt;
+}
+#works_section{
+	display: none;
+}
+#contact_section{
+	display: none;
+}
+#about_section{
+	display: none;
+}
